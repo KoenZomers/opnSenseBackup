@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opnSenseBackup", "pfSenseBackup\opnSenseBackup.csproj", "{25EE292E-2305-43D3-B085-996C2E9AA9C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E74CD4FE-CB4A-4968-B282-C0118BBF63DA}"
+	ProjectSection(SolutionItems) = preProject
+		KoenZomers.Tools.opnSense.snk = KoenZomers.Tools.opnSense.snk
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Releases", "Releases", "{E36EC09D-98CC-49D4-8B81-B05205F95306}"
+	ProjectSection(SolutionItems) = preProject
+		Releases\opnSenseBackupv1.0.zip = Releases\opnSenseBackupv1.0.zip
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{12C92BB7-7D1A-49F5-AD96-2101FEE61C8E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		VersionHistory.md = VersionHistory.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{5D858129-BB53-446B-B8B8-C83D383F7F1C}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Images\Help.png = Documentation\Images\Help.png
+		Documentation\Images\SampleExecution.png = Documentation\Images\SampleExecution.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25EE292E-2305-43D3-B085-996C2E9AA9C5}.Debug|x86.ActiveCfg = Debug|x86
+		{25EE292E-2305-43D3-B085-996C2E9AA9C5}.Debug|x86.Build.0 = Debug|x86
+		{25EE292E-2305-43D3-B085-996C2E9AA9C5}.Release|x86.ActiveCfg = Release|x86
+		{25EE292E-2305-43D3-B085-996C2E9AA9C5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D858129-BB53-446B-B8B8-C83D383F7F1C} = {12C92BB7-7D1A-49F5-AD96-2101FEE61C8E}
+	EndGlobalSection
+EndGlobal
