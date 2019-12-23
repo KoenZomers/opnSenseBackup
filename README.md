@@ -1,6 +1,8 @@
 # opnSenseBackup
 opnSense Backup allows you to backup the complete configuration of your opnSense server using this command line Windows application. It is easy to include this in a larger script for your backups and schedule it i.e. with the Windows Task Scheduler.
 
+Taking backups of OPNSense is now integrated with the pfSenseBackup tool as well: https://github.com/KoenZomers/pfSenseBackup
+
 ## Download
 
 [Download the latest version](https://github.com/KoenZomers/opnSenseBackup/raw/master/Releases/opnSenseBackupv1.0.zip)
